@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+h1{
+    text-align: center;
+    margin: 5px;
+    color: rgb(231, 224, 236);
+
+}
+header{
+   
+    justify-content: space-between;
+    background-color: rgba(229, 140, 7, 0.985);
+}
+.arriba{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:  rgb(234, 231, 226);
+    color: rgb(4, 3, 3);
+    padding: 2px;
+    font-family: cursive;
+    margin-bottom: 8px;
+    
+}
+a:hover{
+    border: 2px solid rgb(231, 160, 8);
+    background-color: orange;
+}
+
+.secciones{
+    display: grid;
+    grid-template-rows: 2fr 2fr ;
+    grid-template-columns: 2fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(19rem,1fr));
+    row-gap: 20px ;
+    column-gap: 10px ;
+    background-color: rgb(239, 249, 249);
+    border: 2px solid black;
+    margin-top: 100px;
+    
+    
+
+    
+    
+    
+}
+.secciones p{
+    text-align: center;
+    margin: 20px;
+    
+
+}
+.secciones h2{
+    text-align: center;
+    margin: 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.secciones img{
+    
+    margin: 2px;
+    border: 2px solid rgb(232, 135, 8);
+    width: 300px;
+    height: 200px;
+    
+    
+
+    
+}
+
+.mascotas{
+    border: 2px solid black;
+    margin: 2px;
+    
+}
+
+.articulos{
+    border: 2px solid black;
+    margin: 2px;
+}
+.belleza{
+    border: 2px solid black;
+    margin: 2px;
+}
+.jardineria{
+    border: 2px solid black;
+    margin: 2px;
+}
+footer{
+    background-color: rgb(33, 28, 28);
+    margin-top: 200px;
+    border: 2px solid white;
+    
+}
+.final ul{
+    display: flex;
+    justify-content: space-around;
+}
+.final li{
+    color: rgb(1, 1, 1);
+
+    border-radius: 20px;
+    
+    
+}
