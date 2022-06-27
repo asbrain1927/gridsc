@@ -37,7 +37,7 @@ a{
     
 }
 a:hover{
-    border: 2px solid rgb(231, 160, 8);
+   
     background-color: orange;
 }
 
@@ -73,13 +73,15 @@ a:hover{
 .secciones img{
     
     margin: 2px;
-    border: 2px solid rgb(232, 135, 8);
+    
     width: 300px;
     height: 200px;
     
+   
     
-
-    
+}
+.jardineria img{
+    border:  10 px solid orange;
 }
 
 .mascotas{

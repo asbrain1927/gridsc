@@ -14,18 +14,40 @@ header{
     justify-content: space-between;
     margin: 20px;
     border: 1px solid black;
+   
+
+  
 
 }
+header img{
+    width: 200px;
+    animation-name: señorita;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes señorita{
+    100%{
+        transform: scale(80%)
+        
+    }
+    
+}
+
+
+
+
 h1{  
     display: flex;
     color: rgba(17, 16, 15, 0.984);
     margin: 5px;
-}
-img{
     
-    width: 100px ;
-    margin: 10px; 
 }
+
+
+
+
 .arriba{
     padding: 5px;
     margin: 10px;
@@ -93,6 +115,18 @@ a:hover{
     color:orange;
     margin: 3px;
     padding: 5px;
+    animation-name: sub;
+    animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+}
+@keyframes sub{
+    100%{
+        color: white;
+        transform: scale(90%);
+        transform-style: flat;
+    }
 }
 
 
@@ -102,6 +136,7 @@ a:hover{
     border: 0px;
     margin: 4px;
     border-radius: 30px;
+    
 
 }
 
@@ -159,15 +194,13 @@ footer{
 }
 
 .contenedor{
-    
     display: grid;
     grid-template-rows: 1fr ;
     row-gap: 5px;
     margin: 20px;
-    
     align-items: center;
-
 }
+  
 @media (min-width:845px){
 
 .arriba{
@@ -179,11 +212,27 @@ footer{
     justify-content: center;
 } 
 img{
-    width: 300px;
+    width: 200px;
+  
+    
 }
+
 .banner{
     display: flex;
     flex-direction: row;
+    animation-name: cajas;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+
+}
+@keyframes cajas{
+   
+    100% {
+        background-color: rgb(121, 105, 74);
+        
+    }
 }
     .banner-text{
     border: 2px solid orange;
